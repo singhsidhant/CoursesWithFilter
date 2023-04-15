@@ -24,7 +24,9 @@ const Card = ( props ) => {
         }
     }
   return (
-    <div className='w-[300px] bg-bgDark bg-opacity-80 rounded-md overflow-hidden'>
+    <div className='w-[300px] bg-bgDark bg-opacity-80 rounded-md overflow-hidden
+    hover:scale-110 transition duration-300 ease-in outline outline-1
+    hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]'>
         <div className='relative'>
             <img src={course.image.url}></img>
             <div className='w-[40px] h-[40px] bg-white rounded-full absolute right-2
